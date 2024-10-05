@@ -19,7 +19,7 @@ all_day: false
 publishDate: '2024-10-06T00:00:00Z'
 
 authors: [박은송]
-tags: [공간정보]
+tags: [공간정보,experience]
 
 # Is this a featured talk? (true/false)
 featured: false
