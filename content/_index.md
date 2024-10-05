@@ -12,7 +12,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: "<span style='font-family: Arial, sans-serif; font-size: 36px;'>About Me</span>"
+      title: "<span style='font-family: Arial, sans-serif; font-size: 36px; color: #3C6478;'>About Me</span>"
       username: admin
     design:
       background:
@@ -26,51 +26,41 @@ sections:
   - block: features  # Feature widget section 추가
     id: features
     content:
-      title: "<span style='font-family: Arial, sans-serif; font-size: 28px;'>MY SKILLS</span>"
+      title: "<span style='font-family: Arial, sans-serif; font-size: 28px; color: #3C6478;'>MY SKILLS</span>"
       item:
         - icon: python
           icon_pack: fab
-          name: "<span style='font-family: Arial, sans-serif; font-size: 22px;'>Python</span>"
-          description: 80%
+          name: "<span style='font-family: Arial, sans-serif; font-size: 22px; color: #5A9EAE;'>Python</span>"
+          description: "<span style='color: #647785;'>80%</span>"
         - icon: code
           icon_pack: fas
-          name: "<span style='font-family: Arial, sans-serif; font-size: 22px;'>C/C++</span>"
-          description: 100%
+          name: "<span style='font-family: Arial, sans-serif; font-size: 22px; color: #5A9EAE;'>C/C++</span>"
+          description: "<span style='color: #647785;'>100%</span>"
         - icon: database
           icon_pack: fas
-          name: "<span style='font-family: Arial, sans-serif; font-size: 22px;'>SQL</span>"
-          description: 40%
+          name: "<span style='font-family: Arial, sans-serif; font-size: 22px; color: #5A9EAE;'>SQL</span>"
+          description: "<span style='color: #647785;'>40%</span>"
 
-  - block: accomplishments  # Accomplishments widget section 추가
+  - block: list  # list 블록으로 경력 표시
+    id: experience
     content:
-      title: "<span style='font-family: Arial, sans-serif; font-size: 28px;'>My Experience</span>"
-      date_format: Jan 2006
-      item:
-        - organization: 한동대빅데이터캠프
+      title: "<span style='font-family: Arial, sans-serif; font-size: 28px; color: #3C6478;'>My Experience</span>"
+      items:
+        - title: 'sLLM으로 배우는 생성형 AI'
+          organization: 한동대빅데이터캠프
           organization_url: 'https://www.coursera.org'
-          title: "<span style='font-family: Arial, sans-serif; font-size: 22px;'>sLLM으로 배우는 생성형 AI</span>"
-          url: ''
-          certificate_url: 'https://www.coursera.org'
-          date_start: '2018-10-01'
-          date_end: ''
-          description: ''
-        - organization: 드론코딩경진대회
+          date: '2018-10-01'
+          description: 'Coursera에서 수강한 생성형 AI 강좌'
+        - title: 'Blockchain Fundamentals'
+          organization: 드론코딩경진대회
           organization_url: 'https://www.edx.org'
-          title: "<span style='font-family: Arial, sans-serif; font-size: 22px;'>Blockchain Fundamentals</span>"
-          url: >-
-            https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals      
-          certificate_url: 'https://www.edx.org'
-          date_start: '2018-03-01'
-          date_end: ''
-          description: 'Formulated informed blockchain models, hypotheses, and use cases.'
-        - organization: 기업의달인되기
+          date: '2018-03-01'
+          description: 'Blockchain과 관련된 기본 개념을 배움'
+        - title: 'Object-Oriented Programming in R: S3 and R6 Course'
+          organization: 기업의달인되기
           organization_url: 'https://www.datacamp.com'
-          title: "<span style='font-family: Arial, sans-serif; font-size: 22px;'>Object-Oriented Programming in R: S3 and R6 Course</span>"
-          url: ''
-          certificate_url: 'https://www.datacamp.com'
-          date_start: '2017-07-01'
-          date_end: '2017-12-21'
-          description: ''
+          date: '2017-07-01'
+          description: 'Datacamp에서 R의 OOP를 배운 과정'
 
   - block: slider  # 슬라이더 블록 추가
     widget: slider
@@ -84,8 +74,8 @@ sections:
       interval: 3000  # 슬라이드 전환 간격 (3초)
     content:
       slides:
-        - title: "<span style='font-family: Arial, sans-serif; font-size: 24px;'>👋 Welcome to the group</span>"
-          content: "<span style='font-family: Arial, sans-serif; font-size: 18px;'>Take a look at what we're working on...</span>"
+        - title: "<span style='font-family: Arial, sans-serif; font-size: 24px; color: #3C6478;'>👋 Welcome to the group</span>"
+          content: "<span style='font-family: Arial, sans-serif; font-size: 18px; color: #647785;'>Take a look at what we're working on...</span>"
           align: center
           background:
             position: right
@@ -93,8 +83,8 @@ sections:
             brightness: 0.7
             media: 클라이밍.png
             fit: cover
-        - title: "<span style='font-family: Arial, sans-serif; font-size: 24px;'>Lunch & Learn ☕️</span>"
-          content: "<span style='font-family: Arial, sans-serif; font-size: 18px;'>Share your knowledge with the group and explore exciting new topics together!</span>"
+        - title: "<span style='font-family: Arial, sans-serif; font-size: 24px; color: #3C6478;'>Lunch & Learn ☕️</span>"
+          content: "<span style='font-family: Arial, sans-serif; font-size: 18px; color: #647785;'>Share your knowledge with the group and explore exciting new topics together!</span>"
           align: left
           background:
             position: center
@@ -102,8 +92,8 @@ sections:
             brightness: 0.7
             media: 클라이밍2.png
             fit: cover
-        - title: "<span style='font-family: Arial, sans-serif; font-size: 24px;'>World-Class Semiconductor Lab</span>"
-          content: "<span style='font-family: Arial, sans-serif; font-size: 18px;'>Just opened last month!</span>"
+        - title: "<span style='font-family: Arial, sans-serif; font-size: 24px; color: #3C6478;'>World-Class Semiconductor Lab</span>"
+          content: "<span style='font-family: Arial, sans-serif; font-size: 18px; color: #647785;'>Just opened last month!</span>"
           align: right
           background:
             position: center
@@ -120,7 +110,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: "<span style='font-family: Arial, sans-serif; font-size: 28px;'>기업 인터뷰</span>"
+      title: "<span style='font-family: Arial, sans-serif; font-size: 28px; color: #3C6478;'>기업 인터뷰</span>"
       filters:
         folders:
           - publication
@@ -131,7 +121,7 @@ sections:
 
   - block: collection
     content:
-      title: "<span style='font-family: Arial, sans-serif; font-size: 28px;'>Recent Publications</span>"
+      title: "<span style='font-family: Arial, sans-serif; font-size: 28px; color: #3C6478;'>Recent Publications</span>"
       text: ""
       filters:
         folders:
@@ -143,7 +133,7 @@ sections:
   - block: collection
     id: interest
     content:
-      title: "<span style='font-family: Arial, sans-serif; font-size: 28px;'>Projects</span>"
+      title: "<span style='font-family: Arial, sans-serif; font-size: 28px; color: #3C6478;'>Projects</span>"
       filters:
         folders:
           - project
