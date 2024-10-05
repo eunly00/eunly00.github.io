@@ -1,6 +1,5 @@
 ---
 title: 경험
-
 sections:
   - block: collection
     content:

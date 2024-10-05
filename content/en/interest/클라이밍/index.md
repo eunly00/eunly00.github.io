@@ -1,9 +1,10 @@
 ---
-title: 클라이밍
+title: Climbing
 date: 2024-07-10
 tags:
   - hobby
 ---
-자연암벽, 인공암벽 안가리고 전부 좋아합니다
+
+I enjoy both natural and artificial rock climbing.
 
 <!--more-->
