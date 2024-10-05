@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "EUNSONG's History"
+title: "Eunsong's Profile"
 date: 2024-09-22
 type: landing
 
@@ -23,42 +23,65 @@ sections:
           position: center
           parallax: false
 
-  - block: features  # Feature widget section 추가
-    id: features
+  - block: features
+    id: research_interests
     content:
-      title: "<span style='font-size:75%'>MY SKILLS</span>"
-      item:
-        - icon: python
-          icon_pack: fab
-          name: Python
-          description: 80%
-        - icon: code
+      title: '<span style="font-size:75%">Research Interests</span>'
+      text: 'I am passionate about the following research and development areas:<br><br><br><br>'
+      items:
+        - name: Embedded Systems
+          icon: microchip
           icon_pack: fas
-          name: C/C++
-          description: 100%
-        - icon: database
+          description: '<span style="font-size:90%">Design and development of real-time systems and embedded systems for IoT devices.</span><br><br>'
+        - name: Internet of Things (IoT)
+          icon: wifi
           icon_pack: fas
-          name: SQL
-          description: 40%
-        - icon: js
-          icon_pack: fab
-          name: JavaScript
-          description: 70%
-        - icon: html5
-          icon_pack: fab
-          name: HTML5
-          description: 90%
-        - icon: css3-alt
-          icon_pack: fab
-          name: CSS3
-          description: 85%
-        - icon: react
-          icon_pack: fab
-          name: React.js
-          description: 60%
-        - icon: github
-          icon_pack: fab
-          name: GitHub
-          description: 75%
+          description: '<span style="font-size:90%">Development of smart devices through IoT networks and sensor communication.</span><br><br>'
+        - name: Information Security
+          icon: lock
+          icon_pack: fas
+          description: '<span style="font-size:90%">Development of information security solutions including data security, network security, and encryption technologies.</span><br><br>'
+        - name: Artificial Intelligence (AI)
+          icon: brain
+          icon_pack: fas
+          description: '<span style="font-size:90%">Intelligent analysis of IoT devices and security systems using AI.</span><br><br>'
+        - name: Cloud Computing
+          icon: cloud
+          icon_pack: fas
+          description: '<span style="font-size:90%">Cloud-based infrastructure design for embedded systems and IoT.</span><br><br>'
+        - name: Network Security
+          icon: shield-alt
+          icon_pack: fas
+          description: '<span style="font-size:90%">Design of network security protocols for IoT and embedded devices.</span><br><br>'
 
+  - block: features
+    id: language_skills
+    content:
+      title: '<span style="font-size:75%">Language Skills</span>'
+      text: 'Key programming languages and technology stacks:<br><br><br><br>'
+      items:
+        - name: Python
+          icon: python
+          icon_pack: fab
+          description: '<span style="font-size:90%">Python for data science, AI, and web development.</span><br><br>'
+        - name: JavaScript
+          icon: js
+          icon_pack: fab
+          description: '<span style="font-size:90%">JavaScript for web and server-side development.</span><br><br>'
+        - name: C++
+          icon: cpanel
+          icon_pack: fab
+          description: '<span style="font-size:90%">C++ for developing high-performance applications and systems.</span><br><br>'
+        - name: HTML5
+          icon: html5
+          icon_pack: fab
+          description: '<span style="font-size:90%">HTML5 for structuring web pages.</span><br><br>'
+        - name: CSS3
+          icon: css3-alt
+          icon_pack: fab
+          description: '<span style="font-size:90%">CSS3 for styling web pages.</span><br><br>'
+        - name: SQL
+          icon: database
+          icon_pack: fas
+          description: '<span style="font-size:90%">SQL for managing databases.</span><br><br>'
 ---

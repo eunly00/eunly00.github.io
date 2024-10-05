@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 박 은 송 
+title: Eun Song Park
 
 # Name pronunciation (optional)
 name_pronunciation: PARK EUN SONG
@@ -24,13 +24,12 @@ authors:
 
 # Organizations/Affiliations
 organizations:
-  - name: 전북대학교 컴퓨터인공지능학부
+  - name: Jeonbuk National University, School of Computer and Artificial Intelligence
     url: 'https://csai.jbnu.ac.kr/csai/index.do'
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 
 # Short bio (displayed in user profile at end of posts)
-bio: 박은송은 전북대학교 컴퓨터공학부 학생입니다. 
+bio: Eun Song Park is a student at Jeonbuk National University's Department of Computer Science.
+
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -45,19 +44,20 @@ social:
   - icon: cv
     icon_pack: ai
     link: uploads/cv.pdf
+
 interests: 
-  - 임베디드 시스템 
+  - Embedded Systems
   - IoT
-  - 정보보안
+  - Information Security
 
 education:
   courses:
-    - course: 컴퓨터공학부
-      institution: 전북대학교
+    - course: Department of Computer Science
+      institution: Jeonbuk National University
       year: 2022- ing
 
 ---
 
 ## About Me
 
-전북대학교 컴퓨터공학부에 재학 중이며 임베디드, IoT에 가장 큰 관심을 두고있습니다.
+I am currently studying at Jeonbuk National University in the Department of Computer Science, with a strong interest in Embedded Systems and IoT.

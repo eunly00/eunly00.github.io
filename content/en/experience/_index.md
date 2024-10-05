@@ -1,10 +1,10 @@
 ---
-title: experience
+title: 경험
 
 # Listing view
-view: list
+view: community/custom_card
 
-# Optional header image (relative to `assets/media/` folder).
+# Optional banner image (relative to `assets/media/` folder).
 banner:
   caption: ''
   image: ''

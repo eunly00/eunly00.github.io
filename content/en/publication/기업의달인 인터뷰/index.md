@@ -14,30 +14,25 @@ publishDate: "2024-01-20"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["인터뷰"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: 학교에서 진행하는 기업의 달인 프로그램을 통해 당근마켓 CTO 분과 금융결제원 개발자 분과 인터뷰를 진행했다.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 기업의달인 인터뷰
+tags:
+  - interview
 
 
 
 featured: false
 
-links:
-- name: Custom Link
-  url: http://example.org
 url_pdf: 동계 기업의 달인 발표자료 - 컴계일학.pdf
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
+
 url_video: 'https://youtu.be/u2XXVOcbTgg'
 
 # Featured image

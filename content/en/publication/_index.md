@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: 인터뷰
 
 # Listing view
 view: citation

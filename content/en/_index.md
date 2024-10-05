@@ -23,85 +23,62 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: features  # Feature widget section 추가
-    id: features
-    content:
-      title:  <span style="font-size:75%">MY SKILLS</span>
-      item:
-        - icon: python
-          icon_pack: fab
-          name: Python
-          description: 80%
-        - icon: code
-          icon_pack: fas
-          name: C/C++
-          description: 100%
-        - icon: database
-          icon_pack: fas
-          name: SQL
-          description: 40%
-
+    
           
   - block: slider
     content:
       slides:
 
-      - title: <span style="font-size:70%">Recruit</span>
-        content: <span style="font-size:70%">Interested in MacsLAB?</span>
+      - title: <span style="font-size:70%">임베디드 시스템 (Embedded Systems)</span>
+        content: <span style="font-size:70%">실시간 시스템 설계 및 개발, IoT 장치의 내장 시스템 개발</span>
         align: center
         background:
           image:
-            filename: 클라이밍.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-        link:
-          icon: user
-          icon_pack: fas
-          text: <span style="font-size:60%">Join Us</span>
-          text-color: '#000'
-          url: contact
-
-      - title: <span style="font-size:70%">AI</span>
-        content: <span style="font-size:70%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발<span style="font-size:70%">
-        align: center
-        background:
-          image:
-            filename: 클라이밍2.jpg
+            filename: 임베디드.png
             filters:
               brightness: 0.4
           position: center
           color: '#000'
 
-      - title: <span style="font-size:70%">Healthcare</span>
-        content: <span style="font-size:70%">의료 및 헬스케어 분야에 적용 가능한 AI 기술 개발</span>
+      - title: <span style="font-size:70%">사물인터넷 (IoT)</span>
+        content: <span style="font-size:70%">IoT 네트워크 및 센서 통신을 통한 스마트 디바이스 개발<span style="font-size:70%">
         align: center
         background:
           image:
-            filename: 클라이밍3.png
+            filename: IoT.png
             filters:
               brightness: 0.4
           position: center
           color: '#000'
 
-      - title: <span style="font-size:70%">Mathematics</span>
-        content: <span style="font-size:70%">AI와 관련된 수학 및 최적화 이론 연구</span>
+      - title: <span style="font-size:70%">정보보안 (Information Security)</span>
+        content: <span style="font-size:70%">데이터 보안, 네트워크 보안, 암호화 기술 등 정보보안 솔루션 개발</span>
         align: center
         background:
           image:
-            filename: 클라이밍4.png
+            filename: 정보보안.png
             filters:
               brightness: 0.4
           position: center
           color: '#000'
 
-      - title: <span style="font-size:70%">Development</span>
-        content: <span style="font-size:70%">기반 기술을 활용한 Full-Stack 어플리케이션 개발</span>
+      - title: <span style="font-size:70%">인공지능 (AI)</span>
+        content: <span style="font-size:70%">AI를 활용한 IoT 기기와 보안 시스템의 지능형 분석</span>
         align: center
         background:
           image:
-            filename: contact.jpg
+            filename: 인공지능.png
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
+      - title: <span style="font-size:70%">클라우드 컴퓨팅 (Cloud Computing)</span>
+        content: <span style="font-size:70%">임베디드 시스템과 IoT를 위한 클라우드 기반 인프라 설계</span>
+        align: center
+        background:
+          image:
+            filename: 클라우딩.png
             filters:
               brightness: 0.4
           position: center
@@ -118,16 +95,26 @@ sections:
       interval: 3000
 
   - block: collection
-    id: papers
     content:
-      title: 기업 인터뷰
+      title: 기업인터뷰
+      subtitle:
+      text:
+      count: 2
       filters:
-        folders:
-          - publication
-        featured_only: true
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: publication
     design:
-      view: grid
-      columns: 2
+      view: community/custom_card
+      columns: '2'
+    advanced:
+      css_style: "text-align: center;"
+
 
   - block: collection
     content:
