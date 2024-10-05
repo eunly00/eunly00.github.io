@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 authors:
-  - admin
+  - parkeunsong
 
 # Organizations/Affiliations
 organizations:

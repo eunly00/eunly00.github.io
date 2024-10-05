@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 authors:
-  - admin
+  - 박은송
 
 # Organizations/Affiliations
 organizations:
