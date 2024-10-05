@@ -23,6 +23,7 @@ highlight_name: true
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
+  - user_groups: Administration
   - icon: at-symbol
     url: 'mailto:songr0821@gmail.com'
     label: E-mail Me
@@ -95,4 +96,4 @@ awards:
 
 ## About Me
 
-전북대학교에 재학 중이며 임베디드, IoT에 가장 큰 관심을 두고있습니다.
+전북대학교 컴퓨터공학부에 재학 중이며 임베디드, IoT에 가장 큰 관심을 두고있습니다.
