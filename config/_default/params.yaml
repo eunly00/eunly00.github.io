@@ -40,6 +40,13 @@ header:
     show_day_night: true
     show_search: true
     highlight_active_link: false
+        # Let the user choose between light or dark mode?
+    show_theme_chooser: true
+    # Let the user search from the navigation bar?
+    # Show a language chooser (if you have translated your site content)?
+    show_translations: true
+    # If `show_translations` is enabled, do you wish to hide the current language name?
+    hide_language_name: false
 
 # Site footer
 
