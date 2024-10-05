@@ -29,8 +29,8 @@ sections:
     content:
       slides:
 
-      - title: <span style="font-size:70%">Recruit</span>
-        content: <span style="font-size:70%">Interested in MacsLAB?</span>
+      - title: <span style="font-size:70%">클라이밍</span>
+        content: <span style="font-size:70%">실내암벽장에서 했던 클라이밍</span>
         align: center
         background:
           image:
@@ -92,7 +92,7 @@ sections:
 
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: '350px'
+      slide_height: '550px'
       slide_width: '100px'
       is_fullscreen: false
       # Automatically transition through slides?
