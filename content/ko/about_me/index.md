@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "은송의 프로필"
+title: "박은송 프로필"
 date: 2024-09-22
 type: landing
 

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 박 은 송 
+title: 박은송 
 
 # Name pronunciation (optional)
 name_pronunciation: PARK EUN SONG
@@ -30,7 +30,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 
 # Short bio (displayed in user profile at end of posts)
-bio: 박은송은 전북대학교 컴퓨터공학부 학생입니다. 
+bio: 박은송 전북대학교 컴퓨터공학부 학생입니다. 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
