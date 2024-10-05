@@ -18,8 +18,8 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: '2024-10-06T00:00:00Z'
 
-authors: []
-tags: []
+authors: [박은송]
+tags: [AI]
 
 # Is this a featured talk? (true/false)
 featured: false

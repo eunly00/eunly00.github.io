@@ -23,10 +23,11 @@ sections:
           size: cover
           position: center
           parallax: false
+
   - block: features  # Feature widget section 추가
     id: features
     content:
-      title:  <span style="font-size:75%">MY SKILLS</span>
+      title: "<span style='font-size:75%'>MY SKILLS</span>"
       item:
         - icon: python
           icon_pack: fab
@@ -40,5 +41,25 @@ sections:
           icon_pack: fas
           name: SQL
           description: 40%
+        - icon: js
+          icon_pack: fab
+          name: JavaScript
+          description: 70%
+        - icon: html5
+          icon_pack: fab
+          name: HTML5
+          description: 90%
+        - icon: css3-alt
+          icon_pack: fab
+          name: CSS3
+          description: 85%
+        - icon: react
+          icon_pack: fab
+          name: React.js
+          description: 60%
+        - icon: github
+          icon_pack: fab
+          name: GitHub
+          description: 75%
 
 ---

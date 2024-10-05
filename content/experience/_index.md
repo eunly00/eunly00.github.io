@@ -2,7 +2,7 @@
 title: experience
 
 # Listing view
-view: compact
+view: community/custom_card
 
 # Optional header image (relative to `assets/media/` folder).
 banner:
