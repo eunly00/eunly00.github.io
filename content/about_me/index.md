@@ -41,7 +41,7 @@ sections:
           name: "<span style='font-family: Arial, sans-serif; font-size: 22px; color: #5A9EAE;'>SQL</span>"
           description: "<span style='color: #647785;'>40%</span>"
 
-  - block: list  # list 블록으로 경력 표시
+  - block: accomplishments  # list 블록으로 경력 표시
     id: experience
     content:
       title: "<span style='font-family: Arial, sans-serif; font-size: 28px; color: #3C6478;'>My Experience</span>"

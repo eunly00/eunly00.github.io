@@ -41,7 +41,7 @@ sections:
           name: "<span style='font-family: Arial, sans-serif; font-size: 22px; color: #5A9EAE;'>SQL</span>"
           description: "<span style='color: #647785;'>40%</span>"
 
-  - block: list  # list 블록으로 경력 표시
+  - block: accomplishments  # list 블록으로 경력 표시
     id: experience
     content:
       title: "<span style='font-family: Arial, sans-serif; font-size: 28px; color: #3C6478;'>My Experience</span>"
@@ -81,7 +81,7 @@ sections:
             position: right
             color: '#666'
             brightness: 0.7
-            media: 클라이밍.png
+            media: '클라이밍.png'
             fit: cover
         - title: "<span style='font-family: Arial, sans-serif; font-size: 24px; color: #3C6478;'>Lunch & Learn ☕️</span>"
           content: "<span style='font-family: Arial, sans-serif; font-size: 18px; color: #647785;'>Share your knowledge with the group and explore exciting new topics together!</span>"
@@ -90,7 +90,7 @@ sections:
             position: center
             color: '#555'
             brightness: 0.7
-            media: 클라이밍2.png
+            media: '클라이밍2.png'
             fit: cover
         - title: "<span style='font-family: Arial, sans-serif; font-size: 24px; color: #3C6478;'>World-Class Semiconductor Lab</span>"
           content: "<span style='font-family: Arial, sans-serif; font-size: 18px; color: #647785;'>Just opened last month!</span>"
@@ -99,7 +99,7 @@ sections:
             position: center
             color: '#333'
             brightness: 0.5
-            media: 클라이밍3.png
+            media: '클라이밍3.png'
             fit: cover
           link:
             icon: graduation-cap
