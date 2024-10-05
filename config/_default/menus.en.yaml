@@ -2,10 +2,10 @@ main:
   - name: About Me
     url: /about_me/
     weight: 10
-  - name: Interview
-    url: /#papers
+  - name: Company Interviews
+    url: publication/
     weight: 11
-  - name: Interest
+  - name: Interests
     url: interests/
     identifier: interests
     weight: 12
@@ -26,26 +26,34 @@ main:
     parent: interests
     weight: 16
   - name: Experience
-    url: experience/
+    url: event/
     weight: 20
+  - name: Drone
+    url: event/drone/
+    parent: Experience
+    weight: 21
+  - name: Big Data
+    url: event/handong/
+    parent: Experience
+    weight: 22
   - name: Projects
     url: project/
     identifier: projects
     weight: 30
-  - name: GIS
-    url: project/gis/
+  - name: Geospatial Information
+    url: project/geospatial-information/
     parent: projects
     weight: 31
-  - name: Lawyermong
-    url: project/lawyermong/
+  - name: Legal AI Advisor
+    url: project/legal-ai-advisor/
     parent: projects
     weight: 32
-  - name: Weather Notifier
+  - name: Embedded
     url: project/embedded/
     parent: projects
     weight: 33
-  - name: Tanghulu Routine
-    url: project/tanghulu-routine/
+  - name: Habit Tracker App
+    url: project/habit-tracker/
     parent: projects
     weight: 34
   - name: Contact

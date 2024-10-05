@@ -1,5 +1,5 @@
 ---
-title: 경험
+title: experience
 cms_exclude: true
 url: talk
 
