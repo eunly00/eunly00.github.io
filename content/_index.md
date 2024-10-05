@@ -27,12 +27,10 @@ sections:
 
 
   - block: features  # Feature widget section 추가
-    widget: features
-    weight: 10
-    headless: true
+    id: features
     content:
-      title: My Skills
-      feature:
+      title:  <span style="font-size:75%">MY SKILLS</span>
+      item:
         - icon: python
           icon_pack: fab
           name: Python
@@ -47,9 +45,6 @@ sections:
           description: 40%
 
   - block: accomplishments  # Accomplishments widget section 추가
-    widget: accomplishments
-    weight: 20
-    headless: true
     content:
       title: My Experience
       date_format: Jan 2006

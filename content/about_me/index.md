@@ -27,12 +27,12 @@ sections:
 
 
   - block: features  # Feature widget section 추가
-    widget: features
+    id: features
     weight: 10
-    headless: true
     content:
-      title: My Skills
-      feature:
+      title: <span style="font-size:75%">Lab's Interests</span>
+      text: MY SKILLS.<br><br><br><br>
+      items:
         - icon: python
           icon_pack: fab
           name: Python
