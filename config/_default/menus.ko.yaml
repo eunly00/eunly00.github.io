@@ -3,7 +3,7 @@ main:
     url: /about_me/
     weight: 10
   - name: 기업 인터뷰
-    url: /#papers
+    url: publication/
     weight: 11
   - name: 관심사
     url: interests/

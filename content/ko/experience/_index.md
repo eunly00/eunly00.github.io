@@ -1,11 +1,12 @@
+
 ---
 title: experience
 
 # Listing view
-view: list
+view: community/custom_compact
 
-# Optional header image (relative to `assets/media/` folder).
+# Optional banner image (relative to `assets/media/` folder).
 banner:
-  caption: ''
-  image: ''
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
+  image: 'researchpaper.jpg'
 ---
