@@ -82,7 +82,7 @@ sections:
         align: center
         background:
           image:
-            filename: 클라이밍3.jpg
+            filename: 클라이밍3.png
             filters:
               brightness: 0.4
           position: center
@@ -93,7 +93,7 @@ sections:
         align: center
         background:
           image:
-            filename: 클라이밍4.jpg
+            filename: 클라이밍4.png
             filters:
               brightness: 0.4
           position: center
