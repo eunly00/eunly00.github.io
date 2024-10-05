@@ -24,6 +24,63 @@ sections:
           position: center
           parallax: false
 
+
+
+  - block: featurette  # Feature widget section 추가
+    widget: featurette
+    weight: 10
+    headless: true
+    content:
+      title: My Skills
+      feature:
+        - icon: python
+          icon_pack: fab
+          name: Python
+          description: 80%
+        - icon: code
+          icon_pack: fas
+          name: C/C++
+          description: 100%
+        - icon: database
+          icon_pack: fas
+          name: SQL
+          description: 40%
+
+  - block: accomplishments  # Accomplishments widget section 추가
+    widget: accomplishments
+    weight: 20
+    headless: true
+    content:
+      title: My Experience
+      date_format: Jan 2006
+      item:
+        - organization: 한동대빅데이터캠프
+          organization_url: 'https://www.coursera.org'
+          title: sLLM으로 배우는 생성형 AI
+          url: ''
+          certificate_url: 'https://www.coursera.org'
+          date_start: '2018-10-01'
+          date_end: ''
+          description: ''
+        - organization: 드론코딩경진대회
+          organization_url: 'https://www.edx.org'
+          title: Blockchain Fundamentals
+          url: >-
+            https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals      
+          certificate_url: 'https://www.edx.org'
+          date_start: '2018-03-01'
+          date_end: ''
+          description: 'Formulated informed blockchain models, hypotheses, and use cases.'
+        - organization: 기업의달인되기
+          organization_url: 'https://www.datacamp.com'
+          title: 'Object-Oriented Programming in R: S3 and R6 Course'
+          url: ''
+          certificate_url: 'https://www.datacamp.com'
+          date_start: '2017-07-01'
+          date_end: '2017-12-21'
+          description: ''
+
+          
   - block: slider  # 슬라이더 블록 추가
     widget: slider
     weight: 1
@@ -68,7 +125,6 @@ sections:
             icon_pack: fas
             text: Join Us
             url: ../contact/
-
   - block: collection
     id: papers
     content:

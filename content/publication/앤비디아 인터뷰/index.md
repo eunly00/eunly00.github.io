@@ -34,8 +34,6 @@ summary: 엔비디아 시스템 소프트웨어 엔지니어 분과 인터뷰
 tags:
   - Large Language Models
 
-# Display this page in the Featured widget?
-featured: true
 
 # Custom links (uncomment lines below)
 # links:
