@@ -1,19 +1,15 @@
 ---
-title: '엔비디아 연구원 인터뷰'
+title: 'Interview with NVIDIA Researcher'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - 박은송
-  - 홍사강
-  - 최지혜
-  
-
-
+  - Eun Song Park
+  - Sa Kang Hong
+  - Ji Hye Choi
 
 date: '2024-07-15'
-
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024-09-10'
@@ -21,16 +17,16 @@ publishDate: '2024-09-10'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['인터뷰']
+publication_types: ['Interview']
 
 # Publication name and optional abbreviated publication name.
-publication: 엔비디아
-publication_short: 전북대학교 
+publication: NVIDIA
+publication_short: Chonbuk National University
 
-abstract: 소프트웨어 개발을 중심으로 다루는 기업 내 특정 직무에 대한 이해를 목표로, 최근 IT 계열 내 소프트웨어 시스템의 발전 과정을 이해하고, 현실적인 진로 설정 과정과 관련해 멘토링을 받으면서 추후 희망하는 진로에 대한 로드맵을 설정하기 위해 여름방학 동안 현직자 인터뷰를 진행하기로 했다. 그 중 엔비디아 시스템 소프트웨어 엔지니어분과 인터뷰를 진행했다.
+abstract: The goal of this interview was to gain a better understanding of specific roles within a company focused on software development. We aimed to understand the development process of software systems in the IT sector and set a realistic career roadmap through mentoring. During the summer vacation, we conducted an interview with a system software engineer from NVIDIA.
 
 # Summary. An optional shortened abstract.
-summary: 엔비디아 시스템 소프트웨어 엔지니어 분과 인터뷰
+summary: Interview with a system software engineer from NVIDIA
 tags:
   - interview
 
@@ -43,10 +39,6 @@ featured: false
 #   url: http://example.org
 
 url_pdf: 'https://www.canva.com/design/DAGQP7tP29g/0KskQi6FTdzRnL_S9dvDHQ/view?utm_content=DAGQP7tP29g&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel'
-
-
-
-
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

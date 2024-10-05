@@ -1,12 +1,11 @@
 ---
-title: 당근마켓, 금융결제원 인터뷰
+title: Interview with Karrot Market and Korea Financial Telecommunications & Clearings Institute
 authors:
-- 박은송
-- 김세원
-- 홍사강
-- 최지혜 
+- Eun Song Park
+- Se Won Kim
+- Sa Kang Hong
+- Ji Hye Choi
 date: "2023-12-30"
-
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-01-20"
@@ -14,24 +13,22 @@ publishDate: "2024-01-20"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["인터뷰"]
+publication_types: ["Interview"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
 publication_short: ""
 
-abstract: 학교에서 진행하는 기업의 달인 프로그램을 통해 당근마켓 CTO 분과 금융결제원 개발자 분과 인터뷰를 진행했다.
+abstract: We conducted interviews with the CTO of Karrot Market and a developer from the Korea Financial Telecommunications & Clearings Institute through the school's Corporate Master Program.
 
 # Summary. An optional shortened abstract.
-summary: 기업의달인 인터뷰
+summary: Corporate Master Program Interview
 tags:
   - interview
 
-
-
 featured: false
 
-url_pdf: 동계 기업의 달인 발표자료 - 컴계일학.pdf
+url_pdf: Winter Corporate Master Presentation - Computer Science.pdf
 
 url_video: 'https://youtu.be/u2XXVOcbTgg'
 
@@ -57,4 +54,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
-
