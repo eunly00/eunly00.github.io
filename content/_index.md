@@ -8,12 +8,11 @@ design:
   # Default section spacing
   spacing: "6rem"
 
-
 sections:
   - block: about.biography
     id: about
     content:
-      title: ""
+      title: "<span style='font-family: Arial, sans-serif; font-size: 36px;'>About Me</span>"
       username: admin
     design:
       background:
@@ -24,34 +23,32 @@ sections:
           position: center
           parallax: false
 
-
-
   - block: features  # Feature widget section 추가
     id: features
     content:
-      title:  <span style="font-size:75%">MY SKILLS</span>
+      title: "<span style='font-family: Arial, sans-serif; font-size: 28px;'>MY SKILLS</span>"
       item:
         - icon: python
           icon_pack: fab
-          name: Python
+          name: "<span style='font-family: Arial, sans-serif; font-size: 22px;'>Python</span>"
           description: 80%
         - icon: code
           icon_pack: fas
-          name: C/C++
+          name: "<span style='font-family: Arial, sans-serif; font-size: 22px;'>C/C++</span>"
           description: 100%
         - icon: database
           icon_pack: fas
-          name: SQL
+          name: "<span style='font-family: Arial, sans-serif; font-size: 22px;'>SQL</span>"
           description: 40%
 
   - block: accomplishments  # Accomplishments widget section 추가
     content:
-      title: My Experience
+      title: "<span style='font-family: Arial, sans-serif; font-size: 28px;'>My Experience</span>"
       date_format: Jan 2006
       item:
         - organization: 한동대빅데이터캠프
           organization_url: 'https://www.coursera.org'
-          title: sLLM으로 배우는 생성형 AI
+          title: "<span style='font-family: Arial, sans-serif; font-size: 22px;'>sLLM으로 배우는 생성형 AI</span>"
           url: ''
           certificate_url: 'https://www.coursera.org'
           date_start: '2018-10-01'
@@ -59,7 +56,7 @@ sections:
           description: ''
         - organization: 드론코딩경진대회
           organization_url: 'https://www.edx.org'
-          title: Blockchain Fundamentals
+          title: "<span style='font-family: Arial, sans-serif; font-size: 22px;'>Blockchain Fundamentals</span>"
           url: >-
             https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals      
           certificate_url: 'https://www.edx.org'
@@ -68,14 +65,13 @@ sections:
           description: 'Formulated informed blockchain models, hypotheses, and use cases.'
         - organization: 기업의달인되기
           organization_url: 'https://www.datacamp.com'
-          title: 'Object-Oriented Programming in R: S3 and R6 Course'
+          title: "<span style='font-family: Arial, sans-serif; font-size: 22px;'>Object-Oriented Programming in R: S3 and R6 Course</span>"
           url: ''
           certificate_url: 'https://www.datacamp.com'
           date_start: '2017-07-01'
           date_end: '2017-12-21'
           description: ''
 
-          
   - block: slider  # 슬라이더 블록 추가
     widget: slider
     weight: 1
@@ -88,42 +84,43 @@ sections:
       interval: 3000  # 슬라이드 전환 간격 (3초)
     content:
       slides:
-        - title: 👋 Welcome to the group
-          content: Take a look at what we're working on...
+        - title: "<span style='font-family: Arial, sans-serif; font-size: 24px;'>👋 Welcome to the group</span>"
+          content: "<span style='font-family: Arial, sans-serif; font-size: 18px;'>Take a look at what we're working on...</span>"
           align: center
           background:
             position: right
             color: '#666'
             brightness: 0.7
-            media: 히말라야2.jpg
+            media: 클라이밍.png
             fit: cover
-        - title: Lunch & Learn ☕️
-          content: 'Share your knowledge with the group and explore exciting new topics together!'
+        - title: "<span style='font-family: Arial, sans-serif; font-size: 24px;'>Lunch & Learn ☕️</span>"
+          content: "<span style='font-family: Arial, sans-serif; font-size: 18px;'>Share your knowledge with the group and explore exciting new topics together!</span>"
           align: left
           background:
             position: center
             color: '#555'
             brightness: 0.7
-            media: 히말라야2.jpg
+            media: 클라이밍2.png
             fit: cover
-        - title: World-Class Semiconductor Lab
-          content: 'Just opened last month!'
+        - title: "<span style='font-family: Arial, sans-serif; font-size: 24px;'>World-Class Semiconductor Lab</span>"
+          content: "<span style='font-family: Arial, sans-serif; font-size: 18px;'>Just opened last month!</span>"
           align: right
           background:
             position: center
             color: '#333'
             brightness: 0.5
-            media: 히말라야2.jpg
+            media: 클라이밍3.png
             fit: cover
           link:
             icon: graduation-cap
             icon_pack: fas
             text: Join Us
             url: ../contact/
+
   - block: collection
     id: papers
     content:
-      title: 기업 인터뷰
+      title: "<span style='font-family: Arial, sans-serif; font-size: 28px;'>기업 인터뷰</span>"
       filters:
         folders:
           - publication
@@ -134,7 +131,7 @@ sections:
 
   - block: collection
     content:
-      title: Recent Publications
+      title: "<span style='font-family: Arial, sans-serif; font-size: 28px;'>Recent Publications</span>"
       text: ""
       filters:
         folders:
@@ -146,7 +143,7 @@ sections:
   - block: collection
     id: interest
     content:
-      title: Projects
+      title: "<span style='font-family: Arial, sans-serif; font-size: 28px;'>Projects</span>"
       filters:
         folders:
           - project
@@ -155,4 +152,3 @@ sections:
       columns: 3
 
 ---
-

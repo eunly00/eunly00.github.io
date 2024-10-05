@@ -38,8 +38,8 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:songr0821@gmial.com'
-  - icon: google-scholar
-    icon_pack: brands/instagram
+  - icon: instagram
+    icon_pack: fab
     link: https://www.instagram.com/10.26.rio?igsh=MW51N25hcWE3YXplcw%3D%3D&utm_source=qr
   - icon: cv
     icon_pack: ai
