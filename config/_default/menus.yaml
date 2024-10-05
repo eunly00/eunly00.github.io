@@ -1,24 +1,45 @@
-# Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
-
 main:
   - name: Tour
-    url: tour
+    url: /tour
     weight: 10
-  - name: News
-    url: post
+  - name: Interview
+    url: /#papers
+    weight: 11
+  - name: Interest
+    url: interests/
+    identifier: interests
+    weight: 12
+  - name: Climbing
+    url: interest/클라이밍/
+    parent: interests  # 수정: 'interest' -> 'interests'
+    weight: 13
+  - name: Running
+    url: interest/러닝/
+    parent: interests  # 수정: 'interest' -> 'interests'
+    weight: 14
+  - name: Hiking
+    url: interest/등산/
+    parent: interests  # 수정: 'interest' -> 'interests'
+    weight: 15
+  - name: Travel
+    url: interest/여행/
+    parent: interests  # 수정: 'interest' -> 'interests'
+    weight: 16
+  - name: Experience
+    url: experience/
     weight: 20
-  - name: People
-    url: people
+  - name: Projects
+    url: projects/
+    identifier: projects
     weight: 30
-  - name: Events
-    url: event
-    weight: 40
-  - name: Publications
-    url: publication
-    weight: 50
+  - name: 공간정보
+    url: project/공간정보/
+    parent: projects
+    weight: 31
+  - name: 변호에몽
+    url: project/변호에몽/
+    parent: projects
+    weight: 32
   - name: Contact
-    url: contact
-    weight: 60
+    url: contact/
+    weight: 40

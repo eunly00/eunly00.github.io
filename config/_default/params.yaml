@@ -116,3 +116,10 @@ extensions:
 publications:
   date_format: January 2006
   citation_style: apa
+
+  map:
+    provider: "naver"
+    api_key: "jej8p7stk0" # 네이버 지도 API의 Client ID
+    zoom: 15 # 줌 레벨 설정
+    latitude: 35.8468171 # 위도
+    longitude: 127.1299221 # 경도

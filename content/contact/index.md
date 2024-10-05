@@ -9,24 +9,21 @@ sections:
     content:
       title: Contact
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
-      email: test@example.org
-      phone: 888 888 88 88
+        안녕하세요 컴퓨터공학부 3학년 박은송입니다 :)
+        연락을 취하고싶으시다면 아래로 연락주시면 됩니다 
+      email: songr0821@gmail.com
+      phone: 01029875414
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
+        street: 전북대학교 공과대학 7호관 
+        city: 전주시
+        region: 전라북도
+        postcode: '54896'
+        country: 대한민국
+        country_code: KO
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      appointment_url: 'https://calendly.com'
+        latitude: '35.84601324617979'
+        longitude: '127.13444961966684'
+      directions: 
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas
@@ -56,7 +53,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: contact.jpg
+          filename: Slight Ocean View.jpg
           filters:
             brightness: 1
           parallax: false
