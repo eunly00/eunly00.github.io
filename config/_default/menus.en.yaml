@@ -25,17 +25,6 @@ main:
     url: interest/travel/
     parent: interests
     weight: 16
-  - name: Experience
-    url: event/
-    weight: 20
-  - name: Drone
-    url: event/drone/
-    parent: Experience
-    weight: 21
-  - name: Big Data
-    url: event/handong/
-    parent: Experience
-    weight: 22
   - name: Projects
     url: project/
     identifier: projects
