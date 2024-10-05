@@ -40,7 +40,7 @@ header:
     show_search: true
     highlight_active_link: false
     logo:
-      filename: "headericon.svg"
+      filename: "coding-svgrepo-com.svg"
       text: ""
       # Logo filename in `assets/media/` folder
 # Site footer
