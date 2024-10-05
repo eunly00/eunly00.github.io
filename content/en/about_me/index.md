@@ -8,7 +8,6 @@ design:
   # Default section spacing
   spacing: "6rem"
 
-
 sections:
   - block: about.biography
     id: about

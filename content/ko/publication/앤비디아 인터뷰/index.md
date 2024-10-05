@@ -24,15 +24,15 @@ publishDate: '2024-09-10'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: 엔비디아
+publication_short: 전북대학교 
 
 abstract: 소프트웨어 개발을 중심으로 다루는 기업 내 특정 직무에 대한 이해를 목표로, 최근 IT 계열 내 소프트웨어 시스템의 발전 과정을 이해하고, 현실적인 진로 설정 과정과 관련해 멘토링을 받으면서 추후 희망하는 진로에 대한 로드맵을 설정하기 위해 여름방학 동안 현직자 인터뷰를 진행하기로 했다. 그 중 엔비디아 시스템 소프트웨어 엔지니어분과 인터뷰를 진행했다.
 
 # Summary. An optional shortened abstract.
 summary: 엔비디아 시스템 소프트웨어 엔지니어 분과 인터뷰
 tags:
-  - Large Language Models
+  - interview
 
 # Display this page in the Featured widget?
 featured: false

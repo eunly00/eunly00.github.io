@@ -1,13 +1,10 @@
 ---
 title: 등산
 date: 2023-10-26
-external_link: https://github.com/scikit-learn/scikit-learn
 tags:
-  - Hugo
-  - Wowchemy
-  - Markdown
+  - hobby
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
-
+등산하는걸 좋아합니다
+이번 여름방학 때 히말라야를 다녀왔습니다
 <!--more-->
