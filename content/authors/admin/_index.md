@@ -11,7 +11,7 @@ last_name: PARK
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 💻
 
 # Is this the primary user of the site?
 superuser: true
@@ -31,11 +31,6 @@ profiles:
   - icon: brands/github
     url: https://github.com/gcushen
 
-courses:
-  - title: "Intro to Embedded Systems"
-    description: "Basic concepts of embedded systems."
-  - title: "Advanced IoT"
-    description: "IoT protocols and communication."
 
 interests: 
   - 임베디드 시스템 
@@ -49,6 +44,7 @@ education:
     button:
       text: '재학증명서/성적표'
       url: 'https://example.com'
+    courses: 학사
 
 
 # Skills
