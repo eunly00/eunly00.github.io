@@ -1,0 +1,10 @@
+{{ with .courses }}
+  <!-- courses가 존재할 때만 이 부분을 렌더링 -->
+  {{ range . }}
+    <div class="course">
+      <h3>{{ .title }}</h3>
+      <p>{{ .description }}</p>
+      <a href="{{ .link }}">Learn more</a>
+    </div>
+  {{ end }}
+{{ end }}
