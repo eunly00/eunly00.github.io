@@ -19,26 +19,43 @@ superuser: true
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 
+authors:
+  - admin
 
+# Organizations/Affiliations
+organizations:
+  - name: 전북대학교 컴퓨터인공지능학부
+    url: 'https://csai.jbnu.ac.kr/csai/index.do'
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
-profiles:
-  - user_groups: Administration
-  - icon: at-symbol
-    url: 'mailto:songr0821@gmail.com'
-    label: E-mail Me
-  - icon: brands/instagram
-    url: https://www.instagram.com/10.26.rio?igsh=MW51N25hcWE3YXplcw%3D%3D&utm_source=qr
-  - icon: brands/github
-    url: https://github.com/gcushen
 
 
+# Social/Academic Networking
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:songr0821@gmial.com'
+  - icon: google-scholar
+    icon_pack: brands/instagram
+    link: https://www.instagram.com/10.26.rio?igsh=MW51N25hcWE3YXplcw%3D%3D&utm_source=qr
+  - icon: cv
+    icon_pack: ai
+    link: uploads/cv.pdf
 interests: 
   - 임베디드 시스템 
   - IoT
   - 정보보안
 
 
+
+education:
+  courses:
+    - course: 컴퓨터공학부
+      institution: 전북대학교
+      year: 2022- ing
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
