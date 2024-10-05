@@ -11,30 +11,30 @@ main:
     weight: 12
   - name: Climbing
     url: interest/클라이밍/
-    parent: interests  # 수정: 'interest' -> 'interests'
+    parent: interests
     weight: 13
   - name: Running
     url: interest/러닝/
-    parent: interests  # 수정: 'interest' -> 'interests'
+    parent: interests
     weight: 14
   - name: Hiking
     url: interest/등산/
-    parent: interests  # 수정: 'interest' -> 'interests'
+    parent: interests
     weight: 15
   - name: Travel
     url: interest/여행/
-    parent: interests  # 수정: 'interest' -> 'interests'
+    parent: interests
     weight: 16
   - name: Experience
     url: experience/
     weight: 20
-  - name: Projects
+  - name: Projects  # 상위 메뉴로 작동
     url: project/
     identifier: projects
     weight: 30
   - name: 공간정보
     url: project/공간정보/
-    parent: projects
+    parent: projects  # 'Projects'의 하위 메뉴
     weight: 31
   - name: 변호에몽
     url: project/변호에몽/
@@ -47,7 +47,7 @@ main:
   - name: 탕후루틴
     url: project/탕후루틴/
     parent: projects
-    weight: 32
+    weight: 34  # 이 부분이 다른 weight와 중복되었으므로 수정
   - name: Contact
     url: contact/
     weight: 40
