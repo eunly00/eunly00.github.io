@@ -39,8 +39,7 @@ sections:
         - icon: database
           icon_pack: fas
           name: SQL
-          description: 40%
-          
+          description: 40%         
           
   - block: slider
     content:
@@ -119,14 +118,25 @@ sections:
 
   - block: collection
     content:
-      title: 기업 인터뷰
+      title: 기업인터뷰
+      subtitle:
+      text:
+      count: 2
       filters:
-        folders:
-          - publication
-        featured_only: false
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: publication
     design:
-      view: grid
-      columns: 2
+      view: community/custom_card
+      columns: '2'
+    advanced:
+      css_style: "text-align: center;"
+
 
   - block: collection
     content:
