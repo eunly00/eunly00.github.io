@@ -44,53 +44,84 @@ sections:
           name: SQL
           description: 40%
 
-
-
           
-  - block: slider  # 슬라이더 블록 추가
-    widget: slider
-    weight: 1
-    active: true
-    headless: true
-    design:
-      slide_height: '400px'  # 슬라이더의 높이를 400px로 설정
-      is_fullscreen: false
-      loop: true  # 슬라이더가 자동으로 루프
-      interval: 3000  # 슬라이드 전환 간격 (3초)
+  - block: slider
     content:
       slides:
-        - title: 👋 Welcome to the group
-          content: Take a look at what we're working on...
-          align: center
-          background:
-            position: right
-            color: '#666'
-            brightness: 0.7
-            media: contact.jpg
-            fit: cover
-        - title: Lunch & Learn ☕️
-          content: 'Share your knowledge with the group and explore exciting new topics together!'
-          align: left
-          background:
-            position: center
-            color: '#555'
-            brightness: 0.7
-            media: 클라이밍.jpg
-            fit: cover
-        - title: World-Class Semiconductor Lab
-          content: 'Just opened last month!'
-          align: right
-          background:
-            position: center
-            color: '#333'
-            brightness: 0.5
-            media: 히말라야2.jpg
-            fit: cover
-          link:
-            icon: graduation-cap
-            icon_pack: fas
-            text: Join Us
-            url: ../contact/
+
+      - title: <span style="font-size:70%">Recruit</span>
+        content: <span style="font-size:70%">Interested in MacsLAB?</span>
+        align: center
+        background:
+          image:
+            filename: 클라이밍.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+        link:
+          icon: user
+          icon_pack: fas
+          text: <span style="font-size:60%">Join Us</span>
+          text-color: '#000'
+          url: contact
+
+      - title: <span style="font-size:70%">AI</span>
+        content: <span style="font-size:70%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발<span style="font-size:70%">
+        align: center
+        background:
+          image:
+            filename: 클라이밍2.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
+      - title: <span style="font-size:70%">Healthcare</span>
+        content: <span style="font-size:70%">의료 및 헬스케어 분야에 적용 가능한 AI 기술 개발</span>
+        align: center
+        background:
+          image:
+            filename: 클라이밍3.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
+      - title: <span style="font-size:70%">Mathematics</span>
+        content: <span style="font-size:70%">AI와 관련된 수학 및 최적화 이론 연구</span>
+        align: center
+        background:
+          image:
+            filename: 클라이밍4.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
+      - title: <span style="font-size:70%">Development</span>
+        content: <span style="font-size:70%">기반 기술을 활용한 Full-Stack 어플리케이션 개발</span>
+        align: center
+        background:
+          image:
+            filename: contact.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
+    design:
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      slide_height: '350px'
+      slide_width: '100px'
+      is_fullscreen: false
+      # Automatically transition through slides?
+      loop: true
+      # Duration of transition between slides (in ms)
+      interval: 3000
+
+
+
   - block: collection
     id: papers
     content:

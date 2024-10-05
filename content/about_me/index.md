@@ -23,9 +23,6 @@ sections:
           size: cover
           position: center
           parallax: false
-
-
-
   - block: features  # Feature widget section 추가
     id: features
     content:
