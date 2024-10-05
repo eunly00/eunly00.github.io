@@ -23,23 +23,7 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: features  # Feature widget section 추가
-    id: features
-    content:
-      title:  <span style="font-size:75%">MY SKILLS</span>
-      item:
-        - icon: python
-          icon_pack: fab
-          name: Python
-          description: 80%
-        - icon: code
-          icon_pack: fas
-          name: C/C++
-          description: 100%
-        - icon: database
-          icon_pack: fas
-          name: SQL
-          description: 40%         
+    
           
   - block: slider
     content:

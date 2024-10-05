@@ -23,36 +23,43 @@ sections:
           position: center
           parallax: false
 
-  - block: features  # 여기에 들여쓰기를 맞춰줍니다.
-    id: features
+  - block: features
+    id: research_interests
     content:
-       title: <span style="font-size:75%">Lab's Interests</span> 
-       text: '저희 연구실에서는 다음과 같은 연구/개발 분야에 관심을 쏟고 있습니다.<br><br><br><br>'
-       items:
-        - name: 인공지능(AI)
-          icon: code-branch
+      title: '<span style="font-size:75%">Research Interests</span>'
+      text: '저는 다음과 같은 연구/개발 분야에 관심을 쏟고 있습니다.<br><br><br><br>'
+      items:
+        - name: 임베디드 시스템 (Embedded Systems)
+          icon: microchip
           icon_pack: fas
-          description: '<span style="font-size:90%">의료 (Medical), 항공우주 (Aerospace), 컨텐츠 (Contents) 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>'
-        - name: 멀티모달(Multi-modality)
-          icon: globe
+          description: '<span style="font-size:90%">실시간 시스템 설계 및 개발, IoT 장치의 내장 시스템 개발.</span><br><br>'
+        - name: 사물인터넷 (IoT)
+          icon: wifi
           icon_pack: fas
-          description:  '<span style="font-size:90%">Vision & Language 분야의 기반 AI 기술 개발 및 관련 응용 어플리케이션에 기술 적용.</span><br><br>'
-        - name: 의료수학(Medical Math)
-          icon: calculator
+          description: '<span style="font-size:90%">IoT 네트워크 및 센서 통신을 통한 스마트 디바이스 개발.</span><br><br>'
+        - name: 정보보안 (Information Security)
+          icon: lock
           icon_pack: fas
-          description:  '<span style="font-size:90%">의료 분야에 대한 통계 분석 수행 및 의료 질병에 대한 수학적인 모델링 관련 연구 수행.</span><br><br>'
-        - name: 컨텐츠 (Contents)
-          icon: comment-dots
+          description: '<span style="font-size:90%">데이터 보안, 네트워크 보안, 암호화 기술 등 정보보안 솔루션 개발.</span><br><br>'
+        - name: 인공지능 (AI)
+          icon: brain
           icon_pack: fas
-          description:  '<span style="font-size:90%">웹툰 및 미디어 컨텐츠와 관련된 AI 기반 기술 개발 및 고도화.</span><br><br>'
-        - name: 개발 (Development)
-          icon: laptop
+          description: '<span style="font-size:90%">AI를 활용한 IoT 기기와 보안 시스템의 지능형 분석.</span><br><br>'
+        - name: 클라우드 컴퓨팅 (Cloud Computing)
+          icon: cloud
           icon_pack: fas
-          description:  '<span style="font-size:90%">Full-Stack 기반의 응용 어플리케이션 개발.</span><br><br>'
-        - name: 솔루션 (Solution)
-          icon: app-store-ios
-          icon_pack: fab
-          description:  '<span style="font-size:90%">AI 기반기술 및 관련 어플리케이션에 적용을 통한 통합 솔루션 개발!</span><br><br>'
+          description: '<span style="font-size:90%">임베디드 시스템과 IoT를 위한 클라우드 기반 인프라 설계.</span><br><br>'
+        - name: 네트워크 보안 (Network Security)
+          icon: shield-alt
+          icon_pack: fas
+          description: '<span style="font-size:90%">IoT 및 임베디드 장치의 네트워크 보안 프로토콜 설계.</span><br><br>'
+
+  - block: features
+    id: language_skills
+    content:
+      title: '<span style="font-size:75%">Language Skills</span>'
+      text: '주요 프로그래밍 언어 및 기술 스택:<br><br><br><br>'
+      items:
         - name: Python
           icon: python
           icon_pack: fab
@@ -77,4 +84,3 @@ sections:
           icon: database
           icon_pack: fas
           description: '<span style="font-size:90%">데이터베이스 관리를 위한 SQL.</span><br><br>'
----
