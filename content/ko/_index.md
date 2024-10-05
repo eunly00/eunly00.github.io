@@ -40,7 +40,7 @@ sections:
           icon_pack: fas
           name: SQL
           description: 40%
-
+          
           
   - block: slider
     content:
@@ -118,13 +118,12 @@ sections:
       interval: 3000
 
   - block: collection
-    id: papers
     content:
       title: 기업 인터뷰
       filters:
         folders:
           - publication
-        featured_only: true
+        featured_only: false
     design:
       view: grid
       columns: 2
