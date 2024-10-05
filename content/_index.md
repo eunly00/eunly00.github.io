@@ -26,8 +26,8 @@ sections:
 
 
 
-  - block: featurette  # Feature widget section 추가
-    widget: featurette
+  - block: features  # Feature widget section 추가
+    widget: features
     weight: 10
     headless: true
     content:
