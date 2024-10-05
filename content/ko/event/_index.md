@@ -1,7 +1,6 @@
 ---
 title: 경험
 cms_exclude: true
-url: talk
 
 # View
 view: card
