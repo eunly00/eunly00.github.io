@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: 이력서 다운로드하기
-        url: uploads/resume.pdf
+        url: uploads/cv.pdf
     design:
       css_class: dark
       background:
