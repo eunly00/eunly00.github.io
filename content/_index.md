@@ -66,7 +66,7 @@ sections:
     widget: slider
     weight: 1
     active: true
-    headless: true
+    headless: tru
     design:
       slide_height: '400px'  # 슬라이더의 높이를 400px로 설정
       is_fullscreen: false
@@ -81,7 +81,7 @@ sections:
             position: right
             color: '#666'
             brightness: 0.7
-            media: '클라이밍.png'
+            media: '클라이밍.jpg'
             fit: cover
         - title: "<span style='font-family: Arial, sans-serif; font-size: 24px; color: #3C6478;'>Lunch & Learn ☕️</span>"
           content: "<span style='font-family: Arial, sans-serif; font-size: 18px; color: #647785;'>Share your knowledge with the group and explore exciting new topics together!</span>"
@@ -90,7 +90,7 @@ sections:
             position: center
             color: '#555'
             brightness: 0.7
-            media: '클라이밍2.png'
+            media: '클라이밍2.jpg'
             fit: cover
         - title: "<span style='font-family: Arial, sans-serif; font-size: 24px; color: #3C6478;'>World-Class Semiconductor Lab</span>"
           content: "<span style='font-family: Arial, sans-serif; font-size: 18px; color: #647785;'>Just opened last month!</span>"
@@ -99,7 +99,7 @@ sections:
             position: center
             color: '#333'
             brightness: 0.5
-            media: '클라이밍3.png'
+            media: 'contact.jpg'
             fit: cover
           link:
             icon: graduation-cap
