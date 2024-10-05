@@ -1,0 +1,53 @@
+main:
+  - name: About Me
+    url: /about_me/
+    weight: 10
+  - name: Interview
+    url: /#papers
+    weight: 11
+  - name: Interest
+    url: interests/
+    identifier: interests
+    weight: 12
+  - name: Climbing
+    url: interest/climbing/
+    parent: interests
+    weight: 13
+  - name: Running
+    url: interest/running/
+    parent: interests
+    weight: 14
+  - name: Hiking
+    url: interest/hiking/
+    parent: interests
+    weight: 15
+  - name: Travel
+    url: interest/travel/
+    parent: interests
+    weight: 16
+  - name: Experience
+    url: experience/
+    weight: 20
+  - name: Projects
+    url: project/
+    identifier: projects
+    weight: 30
+  - name: GIS
+    url: project/gis/
+    parent: projects
+    weight: 31
+  - name: Lawyermong
+    url: project/lawyermong/
+    parent: projects
+    weight: 32
+  - name: Weather Notifier
+    url: project/embedded/
+    parent: projects
+    weight: 33
+  - name: Tanghulu Routine
+    url: project/tanghulu-routine/
+    parent: projects
+    weight: 34
+  - name: Contact
+    url: contact/
+    weight: 40

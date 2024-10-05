@@ -1,0 +1,53 @@
+main:
+  - name: 소개
+    url: /about_me/
+    weight: 10
+  - name: 기업 인터뷰
+    url: /#papers
+    weight: 11
+  - name: 관심사
+    url: interests/
+    identifier: interests
+    weight: 12
+  - name: 클라이밍
+    url: interest/클라이밍/
+    parent: interests
+    weight: 13
+  - name: 러닝
+    url: interest/러닝/
+    parent: interests
+    weight: 14
+  - name: 등산
+    url: interest/등산/
+    parent: interests
+    weight: 15
+  - name: 여행
+    url: interest/여행/
+    parent: interests
+    weight: 16
+  - name: 경력
+    url: experience/
+    weight: 20
+  - name: 프로젝트
+    url: project/
+    identifier: projects
+    weight: 30
+  - name: 공간정보
+    url: project/공간정보/
+    parent: projects
+    weight: 31
+  - name: 변호에몽
+    url: project/변호에몽/
+    parent: projects
+    weight: 32
+  - name: 임베디드
+    url: project/임베디드/
+    parent: projects
+    weight: 33
+  - name: 탕후루틴
+    url: project/탕후루틴/
+    parent: projects
+    weight: 34
+  - name: 연락처
+    url: contact/
+    weight: 40
