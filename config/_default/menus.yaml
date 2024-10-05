@@ -1,6 +1,6 @@
 main:
-  - name: Tour
-    url: /tour
+  - name: AboutMe
+    url: /people
     weight: 10
   - name: Interview
     url: /#papers
@@ -38,6 +38,14 @@ main:
     weight: 31
   - name: 변호에몽
     url: project/변호에몽/
+    parent: projects
+    weight: 32
+  - name: 날씨알리미
+    url: project/임베디드/
+    parent: projects
+    weight: 33
+  - name: 탕후루틴
+    url: project/탕후루틴/
     parent: projects
     weight: 32
   - name: Contact
