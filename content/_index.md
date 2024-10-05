@@ -41,26 +41,6 @@ sections:
           name: "<span style='font-family: Arial, sans-serif; font-size: 22px; color: #5A9EAE;'>SQL</span>"
           description: "<span style='color: #647785;'>40%</span>"
 
-  - block: features  # list 블록으로 경력 표시
-    id: features
-    content:
-      title: "<span style='font-family: Arial, sans-serif; font-size: 28px; color: #3C6478;'>My Experience</span>"
-      items:
-        - title: 'sLLM으로 배우는 생성형 AI'
-          organization: 한동대빅데이터캠프
-          organization_url: 'https://www.coursera.org'
-          date: '2018-10-01'
-          description: 'Coursera에서 수강한 생성형 AI 강좌'
-        - title: 'Blockchain Fundamentals'
-          organization: 드론코딩경진대회
-          organization_url: 'https://www.edx.org'
-          date: '2018-03-01'
-          description: 'Blockchain과 관련된 기본 개념을 배움'
-        - title: 'Object-Oriented Programming in R: S3 and R6 Course'
-          organization: 기업의달인되기
-          organization_url: 'https://www.datacamp.com'
-          date: '2017-07-01'
-          description: 'Datacamp에서 R의 OOP를 배운 과정'
 
   - block: slider  # 슬라이더 블록 추가
     widget: slider
@@ -81,7 +61,7 @@ sections:
             position: right
             color: '#666'
             brightness: 0.7
-            media: '클라이밍.jpg'
+            media: 클라이밍.jpg
             fit: cover
         - title: "<span style='font-family: Arial, sans-serif; font-size: 24px; color: #3C6478;'>Lunch & Learn ☕️</span>"
           content: "<span style='font-family: Arial, sans-serif; font-size: 18px; color: #647785;'>Share your knowledge with the group and explore exciting new topics together!</span>"
@@ -90,7 +70,7 @@ sections:
             position: center
             color: '#555'
             brightness: 0.7
-            media: '클라이밍2.jpg'
+            media: 클라이밍2.jpg
             fit: cover
         - title: "<span style='font-family: Arial, sans-serif; font-size: 24px; color: #3C6478;'>World-Class Semiconductor Lab</span>"
           content: "<span style='font-family: Arial, sans-serif; font-size: 18px; color: #647785;'>Just opened last month!</span>"
@@ -99,7 +79,7 @@ sections:
             position: center
             color: '#333'
             brightness: 0.5
-            media: 'contact.jpg'
+            media: contact.jpg
             fit: cover
           link:
             icon: graduation-cap
