@@ -26,7 +26,7 @@ main:
     parent: interests
     weight: 16
   - name: 경력
-    url: /#talks
+    url: event/
     weight: 20
   - name: 프로젝트
     url: project/
