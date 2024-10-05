@@ -31,6 +31,11 @@ profiles:
   - icon: brands/github
     url: https://github.com/gcushen
 
+courses:
+  - title: "Intro to Embedded Systems"
+    description: "Basic concepts of embedded systems."
+  - title: "Advanced IoT"
+    description: "IoT protocols and communication."
 
 interests: 
   - 임베디드 시스템 
