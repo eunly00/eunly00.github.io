@@ -1,79 +1,117 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
-date: 2022-10-24
+title: "EUNSONG's History"
+date: 2024-09-22
 type: landing
 
+design:
+  # Default section spacing
+  spacing: "6rem"
+
 sections:
-  - block: hero
+  - block: resume-biography-3
     content:
-      title: |
-        EUNSONG portfolio
-      image:
-        filename: welcome.jpg
-      text: |
-        <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: admin
+      text: ""
+      # Show a call-to-action button under your biography? (optional)
+      button:
+        text: 이력서 다운로드하기
+        url: uploads/resume.pdf
     design:
-      view: card
-      columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
+      css_class: dark
       background:
-        image: 
-          filename: coders.jpg
+        color: black
+        image:
+          # Add your image background to `assets/media/`.
+          filename: Slight Ocean View.jpg
           filters:
-            brightness: 1
-          parallax: false
-          position: center
+            brightness: 1.0
           size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+          position: center
+          parallax: false
+
+  - block: slider  # 슬라이더 블록 추가
+    widget: slider
+    weight: 1
+    active: true
+    headless: true
+    design:
+      slide_height: '400px'  # 슬라이더의 높이를 400px로 설정
+      is_fullscreen: false
+      loop: true  # 슬라이더가 자동으로 루프
+      interval: 3000  # 슬라이드 전환 간격 (3초)
+    content:
+      slides:
+        - title: 👋 Welcome to the group
+          content: Take a look at what we're working on...
+          align: center
+          background:
+            position: right
+            color: '#666'
+            brightness: 0.7
+            media: 히말라야2.jpg
+            fit: cover
+        - title: Lunch & Learn ☕️
+          content: 'Share your knowledge with the group and explore exciting new topics together!'
+          align: left
+          background:
+            position: center
+            color: '#555'
+            brightness: 0.7
+            media: 히말라야2.jpg
+            fit: cover
+        - title: World-Class Semiconductor Lab
+          content: 'Just opened last month!'
+          align: right
+          background:
+            position: center
+            color: '#333'
+            brightness: 0.5
+            media: 히말라야2.jpg
+            fit: cover
+          link:
+            icon: graduation-cap
+            icon_pack: fas
+            text: Join Us
+            url: ../contact/
 
   - block: collection
+    id: papers
     content:
-      title: Latest Preprints
-      text: ""
-      count: 5
+      title: 기업 인터뷰
       filters:
         folders:
           - publication
-        publication_type: 'article'
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 2
+
+  - block: collection
+    content:
+      title: Recent Publications
+      text: ""
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
     design:
       view: citation
-      columns: '1'
 
-  - block: markdown
+  - block: collection
+    id: interest
     content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+      title: Projects
+      filters:
+        folders:
+          - project
     design:
-      columns: '1'
+      view: article-grid
+      columns: 3
+
+
+
+
 ---
+
