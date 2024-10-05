@@ -26,51 +26,38 @@ authors:
 organizations:
   - name: 전북대학교 컴퓨터인공지능학부
     url: 'https://csai.jbnu.ac.kr/csai/index.do'
+
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
-
-
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:songr0821@gmial.com'
-  - icon: google-scholar
-    icon_pack: brands/instagram
+  - icon: instagram
+    icon_pack: brands
     link: https://www.instagram.com/10.26.rio?igsh=MW51N25hcWE3YXplcw%3D%3D&utm_source=qr
   - icon: cv
     icon_pack: ai
     link: uploads/cv.pdf
+
 interests: 
   - 임베디드 시스템 
   - IoT
   - 정보보안
-
-
 
 education:
   courses:
     - course: 컴퓨터공학부
       institution: 전북대학교
       year: 2022- ing
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
 
-
-widget: featurette # As of v5.8-dev, 'featurette' is renamed 'features'
+# Feature widget section
+widget: featurette
 headless: true  # This file represents a page section.
 
-# Put Your Section Options Here (title, background, etc.) ...
-title: My Experience
+title: My Skills
 subtitle:
 weight: 10 # The position of section on page
 
-# Showcase personal skills or business features.
-# Add/remove as many `feature` blocks below as you like.
-# For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
   - icon: python
     icon_pack: fab
@@ -85,23 +72,18 @@ feature:
     name: SQL
     description: 40%
 
+---
+
+# Accomplishments widget section
 widget: accomplishments
 headless: true  # This file represents a page section.
 
-# Put Your Section Options Here (title, background, etc.) ...
 title: My Experience
 subtitle:
-weight: 10 # The position of section on page
+weight: 20 # Set different weight to keep sections separate
 
-# Date format
-#   Refer to https://wowchemy.com/docs/customization/#date-format
 date_format: Jan 2006
 
-# Accomplishments.
-#   Add/remove as many `item` blocks below as you like.
-#   `title`, `organization` and `date_start` are the required parameters.
-#   Leave other parameters empty if not required.
-#   Begin/end multi-line descriptions with `>-`.
 item:
   - organization: 한동대빅데이터캠프
     organization_url: 'https://www.coursera.org'
