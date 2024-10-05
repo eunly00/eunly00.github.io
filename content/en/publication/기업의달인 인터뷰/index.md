@@ -2,9 +2,6 @@
 title: Interview with Karrot Market and Korea Financial Telecommunications & Clearings Institute
 authors:
 - Eun Song Park
-- Se Won Kim
-- Sa Kang Hong
-- Ji Hye Choi
 date: "2023-12-30"
 
 # Schedule page publish date (NOT publication's date).

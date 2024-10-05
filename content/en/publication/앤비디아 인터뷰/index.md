@@ -6,8 +6,6 @@ title: 'Interview with NVIDIA Researcher'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Eun Song Park
-  - Sa Kang Hong
-  - Ji Hye Choi
 
 date: '2024-07-15'
 
