@@ -2,7 +2,7 @@
 title: 경험
 
 # Listing view
-view: citation
+view: community/custom_card
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:

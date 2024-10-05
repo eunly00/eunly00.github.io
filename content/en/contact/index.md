@@ -9,17 +9,17 @@ sections:
     content:
       title: Contact
       text: |-
-        안녕하세요 컴퓨터공학부 3학년 박은송입니다 :)
-        연락을 취하고싶으시다면 아래로 연락주시면 됩니다 
+        Hello, I am Eun Song Park, a third-year student in the Department of Computer Science :)
+        If you wish to contact me, please reach out using the information below.
       email: songr0821@gmail.com
-      phone: 01029875414
+      phone: +82-10-2987-5414
       address:
-        street: 전북대학교 공과대학 7호관 
-        city: 전주시
-        region: 전라북도
+        street: College of Engineering, Building 7, Jeonbuk National University
+        city: Jeonju
+        region: Jeollabuk-do
         postcode: '54896'
-        country: 대한민국
-        country_code: KO
+        country: South Korea
+        country_code: KR
       coordinates:
         latitude: '35.84601324617979'
         longitude: '127.13444961966684'
