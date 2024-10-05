@@ -37,15 +37,6 @@ interests:
   - IoT
   - 정보보안
 
-education:
-  - area: 컴퓨터공학부
-    institution: 전북대학교 
-    date_start: 2022-03-01
-    button:
-      text: '재학증명서/성적표'
-      url: 'https://example.com'
-    courses: 학사
-
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
