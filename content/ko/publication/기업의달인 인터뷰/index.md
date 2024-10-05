@@ -2,9 +2,6 @@
 title: 당근마켓, 금융결제원 인터뷰
 authors:
 - 박은송
-- 김세원
-- 홍사강
-- 최지혜 
 date: "2023-12-30"
 
 
@@ -16,9 +13,7 @@ publishDate: "2024-01-20"
 # Enter a publication type from the CSL standard.
 publication_types: ["인터뷰"]
 
-# Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+
 
 abstract: 학교에서 진행하는 기업의 달인 프로그램을 통해 당근마켓 CTO 분과 금융결제원 개발자 분과 인터뷰를 진행했다.
 
@@ -42,19 +37,5 @@ image:
   focal_point: ""
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-- internal-project
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
 ---
 
