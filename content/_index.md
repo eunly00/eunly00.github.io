@@ -8,64 +8,18 @@ design:
   # Default section spacing
   spacing: "6rem"
 
+
 sections:
-  - block: features
+  - block: about.biography
+    id: about
     content:
-      # User profile display (replacing content from `admin/_index.md`)
-      title: 박 은 송
-      name_pronunciation: PARK EUN SONG
-      first_name: EUN SONG
-      last_name: PARK
-      status:
-        icon: ☕️
-      superuser: true
-      highlight_name: true
-      profiles:
-        - icon: at-symbol
-          url: 'mailto:songr0821@gmail.com'
-          label: E-mail Me
-        - icon: brands/instagram
-          url: https://www.instagram.com/10.26.rio?igsh=MW51N25hcWE3YXplcw%3D%3D&utm_source=qr
-        - icon: brands/github
-          url: https://github.com/gcushen
-      interests:
-        - 임베디드 시스템
-        - IoT
-        - 정보보안
-      education:
-        - area: 컴퓨터공학부
-          institution: 전북대학교
-          date_start: 2022-03-01
-          button:
-            text: '재학증명서/성적표'
-            url: 'https://example.com'
-      skills:
-        - name: Technical Skills
-          items:
-            - name: Python
-              description: ''
-              percent: 80
-              icon: code-bracket
-            - name: C/C++
-              description: ''
-              percent: 100
-              icon: chart-bar
-            - name: SQL
-              description: ''
-              percent: 40
-              icon: circle-stack
-      button:
-        text: 이력서 다운로드하기
-        url: uploads/cv.pdf
+      title: ""
+      username: admin
     design:
-      css_class: dark
       background:
-        color: black
         image:
-          # Add your image background to `assets/media/`.
           filename: Slight Ocean View.jpg
-          filters:
-            brightness: 1.0
+          # Optional: Set background image options
           size: cover
           position: center
           parallax: false
