@@ -8,11 +8,12 @@ design:
   # Default section spacing
   spacing: "6rem"
 
+
 sections:
   - block: about.biography
     id: about
     content:
-      title: "<span style='font-family: Arial, sans-serif; font-size: 36px; color: #3C6478;'>About Me</span>"
+      title: ""
       username: admin
     design:
       background:
@@ -23,30 +24,34 @@ sections:
           position: center
           parallax: false
 
+
+
   - block: features  # Feature widget section 추가
     id: features
     content:
-      title: "<span style='font-family: Arial, sans-serif; font-size: 28px; color: #3C6478;'>MY SKILLS</span>"
+      title:  <span style="font-size:75%">MY SKILLS</span>
       item:
         - icon: python
           icon_pack: fab
-          name: "<span style='font-family: Arial, sans-serif; font-size: 22px; color: #5A9EAE;'>Python</span>"
-          description: "<span style='color: #647785;'>80%</span>"
+          name: Python
+          description: 80%
         - icon: code
           icon_pack: fas
-          name: "<span style='font-family: Arial, sans-serif; font-size: 22px; color: #5A9EAE;'>C/C++</span>"
-          description: "<span style='color: #647785;'>100%</span>"
+          name: C/C++
+          description: 100%
         - icon: database
           icon_pack: fas
-          name: "<span style='font-family: Arial, sans-serif; font-size: 22px; color: #5A9EAE;'>SQL</span>"
-          description: "<span style='color: #647785;'>40%</span>"
+          name: SQL
+          description: 40%
 
 
+
+          
   - block: slider  # 슬라이더 블록 추가
     widget: slider
     weight: 1
     active: true
-    headless: tru
+    headless: true
     design:
       slide_height: '400px'  # 슬라이더의 높이를 400px로 설정
       is_fullscreen: false
@@ -54,43 +59,42 @@ sections:
       interval: 3000  # 슬라이드 전환 간격 (3초)
     content:
       slides:
-        - title: "<span style='font-family: Arial, sans-serif; font-size: 24px; color: #3C6478;'>👋 Welcome to the group</span>"
-          content: "<span style='font-family: Arial, sans-serif; font-size: 18px; color: #647785;'>Take a look at what we're working on...</span>"
+        - title: 👋 Welcome to the group
+          content: Take a look at what we're working on...
           align: center
           background:
             position: right
             color: '#666'
             brightness: 0.7
-            media: 클라이밍.jpg
+            media: contact.jpg
             fit: cover
-        - title: "<span style='font-family: Arial, sans-serif; font-size: 24px; color: #3C6478;'>Lunch & Learn ☕️</span>"
-          content: "<span style='font-family: Arial, sans-serif; font-size: 18px; color: #647785;'>Share your knowledge with the group and explore exciting new topics together!</span>"
+        - title: Lunch & Learn ☕️
+          content: 'Share your knowledge with the group and explore exciting new topics together!'
           align: left
           background:
             position: center
             color: '#555'
             brightness: 0.7
-            media: 클라이밍2.jpg
+            media: 클라이밍.jpg
             fit: cover
-        - title: "<span style='font-family: Arial, sans-serif; font-size: 24px; color: #3C6478;'>World-Class Semiconductor Lab</span>"
-          content: "<span style='font-family: Arial, sans-serif; font-size: 18px; color: #647785;'>Just opened last month!</span>"
+        - title: World-Class Semiconductor Lab
+          content: 'Just opened last month!'
           align: right
           background:
             position: center
             color: '#333'
             brightness: 0.5
-            media: contact.jpg
+            media: 히말라야2.jpg
             fit: cover
           link:
             icon: graduation-cap
             icon_pack: fas
             text: Join Us
             url: ../contact/
-
   - block: collection
     id: papers
     content:
-      title: "<span style='font-family: Arial, sans-serif; font-size: 28px; color: #3C6478;'>기업 인터뷰</span>"
+      title: 기업 인터뷰
       filters:
         folders:
           - publication
@@ -101,7 +105,7 @@ sections:
 
   - block: collection
     content:
-      title: "<span style='font-family: Arial, sans-serif; font-size: 28px; color: #3C6478;'>Recent Publications</span>"
+      title: Recent Publications
       text: ""
       filters:
         folders:
@@ -113,7 +117,7 @@ sections:
   - block: collection
     id: interest
     content:
-      title: "<span style='font-family: Arial, sans-serif; font-size: 28px; color: #3C6478;'>Projects</span>"
+      title: Projects
       filters:
         folders:
           - project
