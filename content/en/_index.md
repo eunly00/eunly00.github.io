@@ -32,7 +32,7 @@ sections:
         align: center
         background:
           image:
-            filename: embedded.png
+            filename: 임베디드.png
             filters:
               brightness: 0.4
           position: center
@@ -54,7 +54,7 @@ sections:
         align: center
         background:
           image:
-            filename: security.png
+            filename: 정보보안.png
             filters:
               brightness: 0.4
           position: center
@@ -65,7 +65,7 @@ sections:
         align: center
         background:
           image:
-            filename: AI.png
+            filename: 인공지능.png
             filters:
               brightness: 0.4
           position: center
@@ -76,7 +76,7 @@ sections:
         align: center
         background:
           image:
-            filename: cloud.png
+            filename: 클라우딩.png
             filters:
               brightness: 0.4
           position: center
