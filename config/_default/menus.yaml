@@ -1,6 +1,6 @@
 main:
   - name: AboutMe
-    url: /people
+    url: /authors/admin
     weight: 10
   - name: Interview
     url: /#papers
