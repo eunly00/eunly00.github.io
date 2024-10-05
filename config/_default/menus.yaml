@@ -1,6 +1,6 @@
 main:
   - name: AboutMe
-    url: /authors/박은송/
+    url: /about_me/
     weight: 10
   - name: Interview
     url: /#papers
