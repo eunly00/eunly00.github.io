@@ -1,7 +1,7 @@
 ---
-title: 경험
+title: Recent & Upcoming Talks
 cms_exclude: true
-#url: talk
+url: talk
 
 # View
 view: card
