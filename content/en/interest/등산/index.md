@@ -1,10 +1,10 @@
 ---
-title: 등산
+title: Hiking
 date: 2023-10-26
 tags:
   - hobby
 ---
 
-등산하는걸 좋아합니다
-이번 여름방학 때 히말라야를 다녀왔습니다
+I enjoy hiking.
+This summer vacation, I went to the Himalayas.
 <!--more-->

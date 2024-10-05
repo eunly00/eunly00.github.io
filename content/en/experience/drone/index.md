@@ -1,13 +1,13 @@
 ---
-title: '드론코딩경진대회'
+title: 'Drone Coding Competition'
 
-event: 2024 METAmobility 드론코딩 경진대회
+event: 2024 METAmobility Drone Coding Competition
 event_url: https://www.jbnu.ac.kr/kor/?menuID=139&sfv=subject&subject=%EB%93%9C%EB%A1%A0&mode=view&no=57447
 
-location: 남원
+location: Namwon
 
-summary: 2024 METAmobility 드론코딩 경진대회
-abstract: '남원시에서 주최하는 2024 남원국제드론제전 중『2024 METAmobility 드론코딩 경진대회』를 개최하게 되었다. 단체전 동상 수상'
+summary: 2024 METAmobility Drone Coding Competition
+abstract: 'The 2024 METAmobility Drone Coding Competition was held as part of the 2024 Namwon International Drone Festival hosted by Namwon City. Won a Bronze Medal in the team event.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -18,8 +18,8 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: '2024-10-06T00:00:00Z'
 
-authors: [박은송]
-tags: [공간정보]
+authors: [Eun Song Park]
+tags: [Spatial Information]
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -28,7 +28,7 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
   focal_point: Right
 
-url_pdf: '드론_상장.pdf'
+url_pdf: 'Drone_Award.pdf'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -44,4 +44,3 @@ slides:
 #   Otherwise, set `projects = []`.
 projects:
 ---
-

@@ -1,13 +1,13 @@
 ---
-title: 'sLLM으로 배우는 생성형 AI'
+title: 'Learning Generative AI with sLLM'
 
-event: 한동대학교 빅데이터 캠프
+event: Handong University Big Data Camp
 event_url: https://www.handong.edu/kor/square/inform/news/?mode=view&id=49819&group=0
 
-location: 경주
+location: Gyeongju
 
-summary: 한동대학교 빅데이터 캠프
-abstract: '한국연구재단 첨단분야 혁신융합대학사업(COSS)의 빅데이터 컨소시엄 참여대학인 한동대학교 빅데이터 사업단이 2024 여름 한동대학교 빅데이터 캠프를 성공적으로 마쳤다. 이번 캠프는 7월 16일부터 19일까지 3박 4일간 경주 켄신턴리조트에서 진행되었다.'
+summary: Handong University Big Data Camp
+abstract: 'The Handong University Big Data Business Unit, part of the Big Data Consortium, successfully completed the 2024 Summer Handong University Big Data Camp. The camp, part of the COSS Advanced Field Innovation Convergence University Project supported by the National Research Foundation of Korea, was held from July 16th to 19th at the Kensington Resort in Gyeongju.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -18,7 +18,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: '2024-10-06T00:00:00Z'
 
-authors: [박은송]
+authors: [Eun Song Park]
 tags: [AI]
 
 # Is this a featured talk? (true/false)
@@ -28,7 +28,7 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
   focal_point: Right
 
-url_pdf: '우수상_C조.pdf'
+url_pdf: 'Excellence_Award_Team_C.pdf'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -44,4 +44,3 @@ slides:
 #   Otherwise, set `projects = []`.
 projects:
 ---
-
