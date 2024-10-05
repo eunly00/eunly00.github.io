@@ -23,9 +23,6 @@ sections:
           size: cover
           position: center
           parallax: false
-
-
-
   - block: features  # Feature widget section 추가
     id: features
     content:
@@ -120,8 +117,6 @@ sections:
       # Duration of transition between slides (in ms)
       interval: 3000
 
-
-
   - block: collection
     id: papers
     content:
@@ -131,7 +126,7 @@ sections:
           - publication
         featured_only: true
     design:
-      view: article-grid
+      view: grid
       columns: 2
 
   - block: collection
