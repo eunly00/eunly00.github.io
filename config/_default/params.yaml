@@ -20,7 +20,6 @@ marketing:
     org_name: '전북대 박은송'
     description: '전북대학교 컴퓨터공학부 박은송의 포트폴리오 사이트입니다'
     twitter: 'GetResearchDev'
-    ogImage: 'preview.jpg'
     keywords:
       ["전북대학교", "전북대", "박은송", "전북대 박은송", "전북대학교 박은송"]
   analytics:
