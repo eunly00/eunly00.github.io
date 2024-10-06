@@ -41,9 +41,7 @@ header:
     show_day_night: true
     show_search: true
     highlight_active_link: false
-    logo:
-      filename: 'icon.png'
-      text: ""
+   
       # Logo filename in `assets/media/` folder
 # Site footer
 
