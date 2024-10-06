@@ -25,6 +25,17 @@ main:
     url: interest/여행/
     parent: interests
     weight: 16
+  - name: 경력
+    url: event/
+    weight: 20
+  - name: 드론
+    url: event/drone/
+    parent: 경력
+    weight: 21
+  - name: 빅데이터
+    url: event/handong/
+    parent: 경력
+    weight: 22
   - name: 프로젝트
     url: project/
     identifier: projects
